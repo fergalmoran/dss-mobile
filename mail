@@ -1,0 +1,1 @@
+mutt -a /srv/dev/working/dss-mobile/phonegap/platforms/android/bin/DssMobile-debug.apk -s Dss Mobile -- fergal.moran@gmail.com

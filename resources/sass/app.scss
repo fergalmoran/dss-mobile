@@ -1,0 +1,92 @@
+// The following two lines import the default Sencha Touch theme. If you are building
+// a new theme, remove them and the add your own CSS on top of the base CSS (which
+// is already included in your app.json file).
+$base-color: #438eb9;
+$active-color: rgb(214, 72, 126);
+
+@import 'sencha-touch/default';
+@import 'sencha-touch/default/all';
+@include icon-font('Pictos', inline-font-files('pictos/pictos-web.woff', woff, 'pictos/pictos-web.ttf', truetype,'pictos/pictos-web.svg', svg));
+@include icon('music');
+.list-item {
+	overflow: hidden;
+	white-space: nowrap;
+	.photo {
+		float: left;
+		margin-right: 10px;
+		width: 45px;
+		height: 45px;
+	}
+	h1 {
+		white-space: nowrap;
+	}
+	span {
+		font-size: 75%;
+	}
+}
+
+/* photos */
+.photo {
+	border: 1px solid #999;   
+}
+
+.mix-detail {
+	background:#fff;
+	.header {
+		background-image:none;
+		background-color:#eee;
+		background-image:0;
+		background-image:0;
+		background-image:0;
+		//background-image:linear-gradient(top,#ffffff,#fbfbfb3%,#e1e1e1);
+		border-bottom:1px solid #ccc;
+		border-top:1px solid #ddd;
+		padding:1em .8em;
+		h3 {
+			margin-top: 0.3em;
+			font-size: 1.2em;
+			h4{
+				color: #999;
+				margin-bottom: 0.3em;
+			}
+		}
+	}
+
+	.avatar {
+		background-position:center center;
+		float:left;
+		border:0;
+		border-radius:.5em;
+		-webkit-border-radius:.5em;
+		margin-right:10px;
+		width:60px;
+		height:60px;
+		background-size:62px auto;
+	}
+	.player-container{
+		width: 100%;
+		clear: both;
+		.play-button{
+			width:25%;
+			height:100%;
+			float: left;
+		}
+		.waveform{
+			width: 75%;
+			height: 75%;
+			float: right;
+			background-color: rgb(64, 64, 64);	
+		}
+	}
+	.description-container{
+		width: 100%;
+		clear: both;
+		p {
+			color:#333;
+			line-height:1.5em;
+			padding:.4em 1.2em;
+			font-size:.8em;
+		}
+	}
+	
+}	

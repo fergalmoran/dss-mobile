@@ -1,0 +1,1 @@
+{"id":"7751b424-8a34-4ee3-aadd-57742640eb18","js":[{"path":"phonegap.js","remote":true},{"path":"app.js","update":"delta"}],"css":[{"path":"resources/css/sencha-touch.css","update":"delta","theme":"Cupertino","platform":["phone","tablet","desktop"]},{"path":"resources/dss.mobile.css"}]}
